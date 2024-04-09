@@ -16,10 +16,9 @@ class Bubble_Sort{
                     ele[j]=temp;
                     flag=false;
                 }
-
-                //if no element swap by inner loop, then break
-                if(flag==true) break;
             }
-        }
+            //if no element swap by inner loop, then break
+            if(flag==true) break;
+        }    
     }
 }
